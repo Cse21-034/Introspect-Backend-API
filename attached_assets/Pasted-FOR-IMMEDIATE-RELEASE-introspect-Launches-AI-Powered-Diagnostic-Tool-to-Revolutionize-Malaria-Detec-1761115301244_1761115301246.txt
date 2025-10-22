@@ -1,0 +1,99 @@
+FOR IMMEDIATE RELEASE
+introspect Launches AI-Powered Diagnostic Tool to Revolutionize Malaria Detection in Rural Clinics
+August 7, 2026 – Gaborone, Botswana – introspect, an emerging healthtech venture, has officially launched an innovative Artificial Intelligence-powered diagnostic solution aimed at transforming malaria detection in low-resource and remote communities, enabling the Botswana Ministry of Health to expand access to quality diagnostics. The tool operates offline on smartphones, allowing nurses and frontline health workers to diagnose malaria accurately without laboratory infrastructure or internet connectivity.
+The launch of introspect comes at a critical juncture for Botswana’s public health. As of the end of May 2025, the country had confirmed 2,311 malaria cases, including nearly 100 severe infections and eight deaths, a sharp escalation that reversed years of progress. The Okavango district was particularly hard hit, mirroring patterns seen in prior surges. The outbreak was driven by unusually heavy rainfall that created abundant mosquito breeding sites, overwhelming rural clinics already constrained by limited laboratory capacity and trained diagnostic personnel WHO | Regional Office for Africa.
+This local emergency reflects a broader regional crisis: in 2023, the WHO African Region accounted for about 94% of global malaria cases (roughly 246 million) and 95% of malaria deaths (approximately 569,000), with children under five years of age making up about 76% of those fatalities World Health Organization. Together, these trends underscore the urgency of deploying rapid, accurate, and scalable diagnostic tools like introspect to bolster Botswana and Africa’s malaria response.
+
+Existing tools fall short: RDTs can produce false results, and sending samples to distant labs delays treatment by days. By contrast, introspect provides lab-quality accuracy in under 5 minutes at the point of care.
+The system is trained on tens of thousands of annotated blood smear images and optimized for low-power devices. With just a basic microscope and smartphone, health workers can detect malaria parasites in real time. 
+“Before introspect, we had to send patients to distant labs and wait for results that often arrived too late,” said Nurse Thato M., who participated in an early pilot. “Now, we can test and treat on the same day — it is a game-changer for our community.”
+The Ministry of Health has expressed interest in evaluating the solution further as part of its national malaria surveillance strategy. With fewer than five WHO-certified microscopists serving 2.6 million people, introspect addresses a critical workforce gap by enabling wider coverage with minimal training.
+“Our goal is to bring high-quality diagnostics directly to the communities that need them most,” said Ditiro Rampate, Founder of introspect. “No patient should have to wait days for a diagnosis when technology can deliver it in minutes, right at the point of care.”
+In addition to health benefits, introspect creates opportunities for local talent in AI development and technical support, contributing to Botswana’s digital transformation and economic diversification.
+
+Frequently Asked Questions (FAQs)
+Customer FAQs
+1. Value Proposition
+ 1.1 I already use rapid diagnostic tests (RDTs). What’s different about introspect?
+ Unlike RDTs, which can fail up to 10–14% of the time, introspect analyzes actual blood smear images with AI, delivering accuracy closer to WHO-certified microscopy — but at the clinic, without delays.
+1.2 How much will introspect cost?
+ We are exploring per-test pricing and monthly subscription models for Ministries/NGOs. Pilot programs will be free. Target pricing is <$1 per test, making it cheaper than lab microscopy ($2–$5).
+1.3 How much time will I save?
+ Lab delays mean results can take 1–3 days. introspect reduces this to <5 minutes, enabling same-day treatment.
+1.4 How will this benefit my community?
+ Faster, more accurate diagnosis saves lives, reduces transmission, and keeps children in school and adults at work. WHO estimates early treatment reduces malaria mortality risk by up to 80%.
+1.5 What features will not be available at launch?
+ The first version focuses on malaria only. Future upgrades include TB (via digital X-ray), cervical cancer, and integration with national digital health systems.
+1.6 In which countries will introspect be available?
+ Pilots start in Botswana (Okavango, Ngami, Chobe). Expansion to other malaria-endemic countries in Sub-Saharan Africa is planned.
+
+Stakeholder FAQs
+1. Value Proposition
+ 1.1 Who is the target customer and why?
+ The Ministry of Health is our primary customer. The tool equips MoH to extend affordable diagnostics into rural communities, closing the gap in technician shortages and infrastructure.
+1.2 Why are you building this now?
+ Botswana faces recurring seasonal surges and a severe shortage of certified microscopists. With smartphones widely available and AI models now proven viable on low-power devices (as shown by the Ocular Project), the timing is right.
+1.3 How is introspect different from other solutions?
+ Unlike RDTs (fast but unreliable) or lab microscopy (accurate but slow and centralized), introspect combines accuracy + speed at the point of care, functioning offline without lab infrastructure.
+1.4 What’s the scale of opportunity if this works?
+ Over 40 malaria-endemic countries face similar diagnostic gaps. With 200+ million annual cases in Africa, the addressable market is millions of tests per year.
+1.5 What will customers be most disappointed by at first?
+ At launch, the product will focus on malaria only and may require basic training. Multi-disease support and EHR integrations will come in future versions.
+1.6 How will this be more sustainable than current methods?
+ By using existing microscopes and smartphones, introspect reduces transport, cost, and environmental impact, while enabling MoH to scale diagnostics affordably.
+
+2. Roll-Out
+ 2.1 What is the rollout plan?
+Prototype development: 2025–2026
+
+
+Pilot testing: 2026 (3–5 public clinics with MoH)
+
+
+Scale-up: 2027+, after validation & regulatory approval
+
+
+2.2 Will there be a pilot?
+ Yes, in partnership with the MoH and rural clinics, focusing on usability, accuracy, and integration into national malaria strategy.
+2.3 What are your measures of success?
+≥90% accuracy vs. certified microscopy
+
+
+Diagnosis time cut from days → minutes
+
+
+Increased proportion of patients treated within 24 hours
+
+
+Adoption into Botswana’s malaria control framework
+
+
+
+3. Safety, Security, and Troubleshooting
+ 3.1 Will patient data be collected?
+ Only anonymized diagnostic data will be stored. With consent, anonymized results may be uploaded securely to the cloud to improve AI performance and national surveillance.
+3.2 How will data be kept secure?
+ End-to-end encryption and WHO-compliant digital health standards will be built in from the start.
+3.3 What kind of support will be available?
+ Field training, helpdesk, and remote technical support during pilots. Long-term, a dedicated support program will be offered.
+
+4. Financials
+ 4.1 How much is currently spent on malaria diagnostics?
+ RDTs: $0.80–$1.20/test. Microscopy: $2–$5/test plus transport. introspect targets <$1/test, eliminating transport delays.
+4.2 How much funding do you need?
+ $250k in grants/partnerships for prototype completion and pilot rollout.
+4.3 When do you expect a return on investment?
+ Public health impact will be immediate in the first year of deployment; financial sustainability is expected in 2–3 years as we scale regionally.
+
+5. Technical
+ 5.1 Will introspect work with existing systems?
+ Future versions will offer integration-ready APIs to connect with Botswana digital health systems.
+5.2 What infrastructure is required?
+ A basic microscope 3D printed stand(adjustable), an Android smartphone, and minimal training.
+5.3 Who will build it?
+ A team of AI engineers and public health collaborators led by founder Ditiro Rampate, with mentorship and support from open-source AI communities.
+5.4 What’s the development timeline?
+ Working prototype in 3–6 months after funding, with pilots following immediately.
+5.5 How will you ensure data security?
+ Encryption, anonymization, and compliance with WHO + Botswana health data standards.
+
