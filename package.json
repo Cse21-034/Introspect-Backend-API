@@ -8,7 +8,8 @@
   "build:frontend": "vite build",
   "build:backend": "esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
   "build": "npm run build:backend",
-  "start": "NODE_ENV=production node ./dist/index.js"
+  "start": "NODE_ENV=production node ./dist/index.js",
+  "db:push": "drizzle-kit push:pg"
 }
 ,
   "dependencies": {
