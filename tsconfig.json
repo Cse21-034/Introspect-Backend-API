@@ -1,4 +1,4 @@
- {
+{
   "include": ["server/**/*", "shared/**/*"],
   "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
   "compilerOptions": {
@@ -7,13 +7,13 @@
     "noEmit": false,
     "outDir": "dist",
     "rootDir": ".",
-    "module": "ES2022",
+    "module": "NodeNext",   // <-- CHANGE THIS
     "strict": true,
     "target": "ES2022",
     "lib": ["esnext", "dom"],
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "NodeNext", // <-- CHANGE THIS
     "baseUrl": ".",
     "paths": {
       "@shared/*": ["./shared/*"],
