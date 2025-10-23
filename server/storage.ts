@@ -15,8 +15,8 @@ import {
   type PasswordResetToken,
   type InsertPasswordResetToken,
   type UpdateProfileInput
-} from "@shared/schema";
-import { db } from "./db";
+} from "../shared/schema.js";
+import { db } from "./db.js";
 import { eq, desc, and, sql } from "drizzle-orm";
 
 
