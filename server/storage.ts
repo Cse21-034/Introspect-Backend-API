@@ -17,7 +17,8 @@ import {
   type UpdateProfileInput
 } from "@shared/schema";
 import { db } from "./db";
-import { eq, desc, and } from "drizzle-orm";
+import { eq, desc, and, sql } from "drizzle-orm";
+
 
 export interface IStorage {
   // User operations
