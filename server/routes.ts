@@ -1,6 +1,6 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
-import { storage } from "./storage";
+import { storage } from "./storage.js";
 import { 
   hashPassword, 
   verifyPassword, 
@@ -8,8 +8,8 @@ import {
   authMiddleware, 
   requireRole,
   type AuthRequest 
-} from "./auth";
-import { uploadImageToS3, isS3Configured } from "./s3";
+} from "./auth.js";
+import { uploadImageToS3, isS3Configured } from "./s3.js";
 import multer from "multer";
 import { nanoid } from "nanoid";
 import {
@@ -21,7 +21,7 @@ import {
   insertPatientSchema,
   insertDiagnosticSchema,
   insertNotificationSchema,
-} from "@shared/schema";
+} from "../shared/schema.js";
 
 // Multer configuration for file uploads
 const upload = multer({
