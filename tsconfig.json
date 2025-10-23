@@ -15,6 +15,10 @@
     "skipLibCheck": true,
     "moduleResolution": "bundler",
     "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["./shared/*"],
+      "@shared": ["./shared"]
+    },
     "types": ["node"]
   }
 }
