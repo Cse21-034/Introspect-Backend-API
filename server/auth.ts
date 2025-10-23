@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import { Request, Response, NextFunction } from "express";
-import type { User } from "@shared/schema";
+import type { User } from "../shared/schema.js";
 
 const JWT_SECRET = process.env.JWT_SECRET || process.env.SESSION_SECRET || "introspect-dev-secret-change-in-production";
 const JWT_EXPIRES_IN = "24h";
