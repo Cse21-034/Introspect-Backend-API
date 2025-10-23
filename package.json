@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-"scripts": {
-  "dev": "NODE_ENV=development tsx server/index.ts",
-  "build:frontend": "vite build",
-  "build:backend": "esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-  "build": "npm run build:backend",
-  "start": "NODE_ENV=production node ./dist/index.js",
-  "db:push": "drizzle-kit push:pg"
-}
-,
+  "scripts": {
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "start": "NODE_ENV=production node dist/index.js",
+    "check": "tsc",
+    "db:push": "drizzle-kit push"
+  },
+
   "dependencies": {
     "@aws-sdk/client-s3": "^3.914.0",
     "@aws-sdk/s3-request-presigner": "^3.914.0",
