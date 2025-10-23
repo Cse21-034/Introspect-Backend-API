@@ -7,13 +7,13 @@
     "noEmit": false,
     "outDir": "dist",
     "rootDir": ".",
-    "module": "NodeNext",   // <-- CHANGE THIS
+    "module": "ES2022",
     "strict": true,
     "target": "ES2022",
     "lib": ["esnext", "dom"],
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "moduleResolution": "NodeNext", // <-- CHANGE THIS
+    "moduleResolution": "bundler",
     "baseUrl": ".",
     "paths": {
       "@shared/*": ["./shared/*"],
