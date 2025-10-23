@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+  import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
@@ -13,9 +13,6 @@ export default defineConfig({
           await import("@replit/vite-plugin-cartographer").then((m) =>
             m.cartographer(),
           ),
-          await import("@replit/vite-plugin-dev-banner").then((m) =>
-            m.devBanner(),
-          ),
         ]
       : []),
   ],
@@ -28,7 +25,7 @@ export default defineConfig({
   },
   root: path.resolve(import.meta.dirname, "client"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "client_dist"), // frontend only
+    outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
   },
   server: {
