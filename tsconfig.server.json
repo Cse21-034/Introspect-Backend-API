@@ -6,7 +6,7 @@
     "rootDir": ".",
     "noEmit": false,
     "module": "ES2022",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "target": "ES2022",
     "lib": ["esnext"],
     "esModuleInterop": true,
