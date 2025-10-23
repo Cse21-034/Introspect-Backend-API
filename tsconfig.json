@@ -1,20 +1,16 @@
-{
-  "include": ["server/**/*", "shared/**/*"],
-  "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
-  "compilerOptions": {
+ "compilerOptions": {
     "incremental": true,
     "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
     "noEmit": false,
     "outDir": "dist",
     "rootDir": ".",
-    "module": "CommonJS",
+    "module": "ES2022",
     "strict": true,
     "target": "ES2022",
     "lib": ["esnext", "dom"],
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "baseUrl": ".",
     "types": ["node"]
   }
-}
