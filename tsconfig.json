@@ -1,4 +1,7 @@
- "compilerOptions": {
+ {
+  "include": ["server/**/*", "shared/**/*"],
+  "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
+  "compilerOptions": {
     "incremental": true,
     "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
     "noEmit": false,
@@ -14,3 +17,4 @@
     "baseUrl": ".",
     "types": ["node"]
   }
+}
